@@ -1,0 +1,11 @@
+# Scenario: Tracking the total number of coffees sold during the event.
+
+total_coffees = 10
+
+def sell_coffee():
+    # We just sold one, increment the counter
+    print("Selling coffee... Current total: ", total_coffees)
+    total_coffees += 1
+    print("New total: ", total_coffees)
+
+sell_coffee()
