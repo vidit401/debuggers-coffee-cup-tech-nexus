@@ -1,0 +1,11 @@
+def mask_password(password):
+    # Challenge: We want to mask the first two letters with '*'
+    # But this code is crashing! Fix it.
+    
+    for i in range(2):
+        password[i] = '*' 
+        
+    return password
+
+# Test Case
+print(mask_password("my_secure_password"))
