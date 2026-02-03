@@ -1,0 +1,14 @@
+# Scenario: A function to add toppings to a coffee order.
+
+def add_topping(topping, current_order=[]):
+    current_order.append(topping)
+    return current_order
+
+# Customer 1 wants just cream
+order1 = add_topping("Cream")
+print("Customer 1: ", order1)
+
+# Customer 2 wants just sugar
+# They expect a fresh list, but...
+order2 = add_topping("Sugar") 
+print("Customer 2: ", order2)
