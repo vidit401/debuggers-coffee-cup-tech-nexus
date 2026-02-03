@@ -1,3 +1,5 @@
+# A function to mask a password by changing the first two letters to asterisks.
+
 def mask_password(password):
     # Challenge: We want to mask the first two letters with '*'
     # But this code is crashing! Fix it.
